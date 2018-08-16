@@ -1,0 +1,45 @@
+# this is comment FYI
+# variable declarations
+boolvar bool1;
+Boolvar bool2, bool3, boolN;
+intvar integer1;
+constvar integervar const_integer1 <- 1234;
+constvar boolvar const_bool1 <- false;
+
+boolvar[] arr1, arr2;
+arr1[0] <- false;
+arr2[1]    <- arr[0];
+
+# constant sentences
+constant “Man is mortal!” <- false;
+
+bool1 <- true;
+bool2 <- true;
+readbool bool3;
+integer1 <- 5;
+# increment and decrement
+integer1++;
+integer1--;
+
+if(!“Man is mortal!” && (bool1 || bool3) && !(const_integer1 >> integer1)){
+    integer1 <- integer1 * (integert1 + 2) + integer1;
+}else{
+write “No Way Dude!”;
+}
+
+while (boolN == true){
+    readinteger integer1;
+    boolN <- integer%2;
+}
+
+void foo(boolvar bool, integervar integer){
+    write bool;
+    write integer;
+}
+
+boolvar foo2(){
+    return false;
+}
+
+foo(true, 8);
+bool1 <- foo2();

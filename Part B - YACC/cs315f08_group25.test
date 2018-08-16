@@ -1,0 +1,63 @@
+main{
+boolvar bool1, bool2, bool3, boolN;
+boolvar bool4;
+intvar int1;
+intvar var1, var2, var3;
+#comment is here
+
+intvar integer1, intger2;
+constantvar intvar const_integer1 <- 1234;
+constantvar boolvar const_bool1 <- false;
+boolvar[] arr1;
+boolvar[] arr2;
+
+arr1[0] <- false;
+arr2[1]	<- arr[0];
+bool1 <- true;
+bool2 <- true;
+
+readbool bool3;
+integer1 <- 5;
+
+# increment and decrement
+integer1++;
+integer1--;
+
+while(term == 5){
+	readinteger integer1;
+};
+
+do{
+	a++;
+}while(a << final);
+
+do{
+	a++;
+	if(x == y){
+		write "done";
+	};
+}while(a << final);
+
+
+intvar foo(boolvar bool, intvar inter){
+	write bool;
+	write integer;
+	return 5;
+};
+
+boolvar foo2(){
+	return false;
+};
+
+foo(myBoolValue, 5);
+bool1 <- foo2();
+
+if(a << 5){
+	write "it is true";
+	while(a >>= 5){
+		integer3++;		
+	};
+}else{
+	write "provide a new value";
+};
+}
